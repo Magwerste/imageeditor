@@ -49,7 +49,7 @@ for filename in os.listdir(input_dir):
         output_filename = f'{clean_name}_edited{ext}'
         output_file = os.path.join(output_dir, output_filename)
 
-        #SAVE DAT HOE
+        #SAVE
         edit.save(output_file)
     
 
